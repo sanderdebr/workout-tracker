@@ -8,8 +8,11 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
+    "firebase": "^7.8.0",
+    "moment": "^2.24.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-id-generator": "^3.0.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.1"
   },

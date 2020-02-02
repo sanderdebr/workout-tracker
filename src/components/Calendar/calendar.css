@@ -1,0 +1,86 @@
+.calendar {
+    overflow: hidden;
+}
+
+.calendar th,
+.calendar td {
+    padding: 1em 2em;
+}
+@media all and (max-width: 768px) {
+    .calendar th,
+    .calendar td {
+        padding: 5px;
+    }
+}
+
+.calendar th {
+    background: #efefef;
+}
+
+.calendar td {
+    text-align: center;
+}
+
+.calendar .today {
+    font-weight: bold;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.calendar .active {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.month-selector th {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+
+.month-cell:hover {
+    background: #efefef;
+    cursor: pointer;
+}
+
+.select-month-title {
+    font-weight: bold;
+    background: #efefef;
+}
+
+.toggle-month {
+    text-align: center !important;
+}
+
+.toggle-month:hover,
+.week-day:hover {
+    cursor: pointer;
+    background: #efefef;
+}
+
+.arrow-icon {
+    padding: 5px 0 0 5px;
+}
+
+.calendar .selected-day {
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+.paper {
+    padding: .25em 1.5em 1.5em 1.5em;
+    display: 'flex';
+    overflow: 'auto';
+    flex-direction: 'column'
+}
+
+svg.MuiSvgIcon-root {
+    transition: 250ms ease;
+}
+svg.MuiSvgIcon-root:hover {
+    cursor: pointer;
+    opacity: .5;
+}
