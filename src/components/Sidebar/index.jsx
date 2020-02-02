@@ -51,12 +51,12 @@ function Sidebar(props) {
             <List>
                 <div>
                     <ListSubheader inset>Account</ListSubheader>
-                    <Link to={`${match.url}/admin`}>
+                    <Link to={`${match.url}/settings`}>
                         <ListItem button>
                             <ListItemIcon>
                                 <SettingsIcon />
                             </ListItemIcon>
-                            <ListItemText primary="Admin" />
+                            <ListItemText primary="Settings" />
                         </ListItem>
                     </Link>
                     <ListItem button onClick={() => props.signOut()}>
